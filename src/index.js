@@ -402,7 +402,7 @@ class Card extends React.Component {
     return {style, arrowStyle}
   }
   handleMouseEnter() {
-    this.props.active && this.setState({hover: true})
+    this.props.active
   }
   handleMouseLeave() {
     this.setState({hover: false})
